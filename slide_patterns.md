@@ -12,13 +12,13 @@ Apply these to every slide in an academic deck:
 
 ```javascript
 const COLORS = {
-  bg:       "FFFFFF",   // White background
-  primary:  "1F4E79",   // Dark navy — titles
-  accent:   "2E75B6",   // Mid-blue — headers, highlights
-  body:     "2D2D2D",   // Near-black — body text
-  muted:    "777777",   // Gray — citations, captions
-  rule:     "CCCCCC",   // Light gray — divider lines
-  highlight:"FFF2CC",   // Yellow — callout boxes (use sparingly)
+    bg:       "FFFFFF",   // White background
+    primary:  "CC0000",   // Red — titles and primary boxes
+    accent:   "E63946",   // Lighter red — headers, highlights, icons
+    body:     "2D2D2D",   // Near-black — body text
+    muted:    "777777",   // Gray — citations, captions
+    rule:     "CCCCCC",   // Light gray — divider lines
+    highlight:"FFE5E5",   // Light red — callout boxes
 };
 
 const FONTS = {
